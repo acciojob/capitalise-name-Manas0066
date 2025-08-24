@@ -1,7 +1,6 @@
 //your JS code here. If required.
+let nameElement = document.querySelector("#fname");
 
-let name = document.querySelector("#fname");
-
-
-name.value = name.value.toUpperCase();
-console.log(name);
+nameElement.addEventListener("input", function () {
+  nameElement.value = nameElement.value.toUpperCase();
+});
