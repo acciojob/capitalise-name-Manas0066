@@ -3,5 +3,5 @@
 let name = document.querySelector("#fname");
 
 
-name = name.value.toUpperCase();
+name.value = name.value.toUpperCase();
 console.log(name);
